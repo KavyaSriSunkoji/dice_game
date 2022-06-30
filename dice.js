@@ -15,7 +15,7 @@ else if(y===5){ document.querySelector(".img2").setAttribute("src","dice5.png");
 else{ document.querySelector(".img2").setAttribute("src","dice6.png");}
 
 document.querySelector(".img-text1").innerHTML="player1:"+x;
-document.querySelector(".img-text2").innerHTML='player2:"+y;
+document.querySelector(".img-text2").innerHTML="player2:"+y;
 if(x>y){
   document.querySelector(".result").innerHTML="player 1 WON!!!";
 }
