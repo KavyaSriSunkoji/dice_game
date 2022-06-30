@@ -1,6 +1,5 @@
 var x=Math.floor(Math.random()*6)+1;
 var y=Math.floor(Math.random()*6)+1;
-setTimeout(function(x,y){
 if(x===1) {document.querySelector(".img1").setAttribute("src","dice1.png");}
 else if(x===2){ document.querySelector(".img1").setAttribute("src","dice2.png");}
 else if(x===3){document.querySelector(".img1").setAttribute("src","dice3.png");}
@@ -23,4 +22,4 @@ if(x>y){
 else if (x<y) {
   document.querySelector(".result").innerHTML="PLAYER 2 WON!!!";
 }
-else document.querySelector(".result").innerHTML="ITS A TIE!!!";},500);
+else document.querySelector(".result").innerHTML="ITS A TIE!!!";}
